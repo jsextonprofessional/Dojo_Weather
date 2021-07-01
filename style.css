@@ -1,0 +1,42 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    border: chartreuse dotted 3px;
+}
+
+.flexed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+
+nav {
+    border: cornflowerblue solid 2px;
+}
+
+.control {
+    border: 3px dotted red;
+}
+
+.menu {
+    border: coral dotted 3px;
+}
+
+.forecast {
+
+}
+
+.column {
+    border: 3px solid black;
+    min-height: 500px;
+    width: 100%;
+}
