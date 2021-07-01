@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: sans-serif;
     font-weight: lighter;
+    list-style: none;
 }
 
 .container {
     width: 800px;
+    min-height: 70px;
     margin: 0 auto;
     border: chartreuse dotted 3px;
 }
@@ -20,9 +22,19 @@
 }
 
 nav {
-    border: cornflowerblue solid 2px;
+    background-color: cornflowerblue;
 }
 
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+li {
+    color: white;
+    margin: 25px;
+    font-size: 20px;
+}
 .control {
     border: 3px dotted red;
 }
@@ -37,6 +49,25 @@ nav {
 
 .column {
     border: 3px solid black;
-    min-height: 500px;
+    min-height: 400px;
     width: 100%;
 }
+
+.weathericon {
+    height: 160px;
+}
+.temprow {
+    min-height: 20px;
+    border: 2px dotted cyan;
+}
+
+#control-left {
+    flex: 3;
+}
+
+#control-right {
+    flex: 1;
+}
+/* .tempt-select {
+    align-items: flex-end;
+} */

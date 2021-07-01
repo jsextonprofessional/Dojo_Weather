@@ -15,7 +15,7 @@
         <div class="container flexed">
             <h1>DojoWeather</h1>
             <div class="menu">
-                <ul>
+                <ul class="flexed">
                     <li>Burbank</li>
                     <li>Chicago</li>
                     <li>Dallas</li>
@@ -28,9 +28,11 @@
         <!-- Midpage Control Panel -->
         <div class="control container flexed">
             <!-- Left -->
-            <h2>San Jose</h2>
+            <div id="control-left" class="container flexed">
+                <h2>San Jose</h2>
+            </div>
             <!-- Right -->
-            <div class="temp-select container">
+            <div id="control-right" class="container flexed">
                 <p>show temperature</p>
                 <select name="cars" id="cars">
                     <option value="celcius">C</option>
@@ -45,52 +47,52 @@
                 <div class="weekday">
                     <h2>Today</h2>
                 </div>
-                <img src="" alt="rainy">
+                <img src="./images/some_rain.png" alt="rainy" class="weathericon">
                 <div class="weather">
                     <p>some rain</p>
                 </div>
-                <div class="temprow">
-                    <div class="hi"></div>
-                    <div class="low"></div>
+                <div class="temprow flexed">
+                    <div class="hi">24</div>
+                    <div class="low">18</div>
                 </div>
             </div>
             <div class="column">
                 <div class="weekday">
                     <h2>Tomorrow</h2>
                 </div>
-                <img src="" alt="sunny">
+                <img src="./images/some_sun.png" alt="sunny" class="weathericon">
                 <div class="weather">
                     <p>some rain</p>
                 </div>
-                <div class="temprow">
-                    <div class="hi"></div>
-                    <div class="low"></div>
+                <div class="temprow flexed">
+                    <div class="hi">27</div>
+                    <div class="low">19</div>
                 </div>
             </div>
             <div class="column">
                 <div class="weekday">
                     <h2>Friday</h2>
                 </div>
-                <img src="" alt="cloudy">
+                <img src="./images/some_clouds.png" alt="cloudy" class="weathericon">
                 <div class="weather">
                     <p>some rain</p>
                 </div>
-                <div class="temprow">
-                    <div class="hi"></div>
-                    <div class="low"></div>
+                <div class="temprow flexed">
+                    <div class="hi">21</div>
+                    <div class="low">16</div>
                 </div>
             </div>
             <div class="column">
                 <div class="weekday">
                     <h2>Saturday</h2>
                 </div>
-                <img src="" alt="sunny">
+                <img src="./images/some_sun.png" alt="sunny" class="weathericon">
                 <div class="weather">
                     <p>some rain</p>
                 </div>
-                <div class="temprow">
-                    <div class="hi"></div>
-                    <div class="low"></div>
+                <div class="temprow flexed">
+                    <div class="hi">26</div>
+                    <div class="low">21</div>
                 </div>
             </div>
         </div>
