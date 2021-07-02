@@ -1,10 +1,12 @@
 // cookies:
 
-// function dismiss(id){
-//     var element = document.querySelector(id);
-//     element.remove();
+var banner = document.querySelector(".cookies");
 
+function dismiss() {
+    banner.remove();
+}
 // Unit converter
+
 var unit = document.querySelector('#unit-choice').value
 var temps = document.getElementsByClassName('temp-num')
 for (var i = 0; i < temps.length; i++) {
