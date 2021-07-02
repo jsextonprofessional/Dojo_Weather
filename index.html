@@ -16,9 +16,9 @@
             <h1>DojoWeather</h1>
             <div class="menu">
                 <ul class="flexed">
-                    <li>Burbank</li>
-                    <li>Chicago</li>
-                    <li>Dallas</li>
+                    <li onclick="alert('Loading Weather Report')">Burbank</li>
+                    <li onclick="alert('Loading Weather Report')">Chicago</li>
+                    <li onclick="alert('Loading Weather Report')">Dallas</li>
                 </ul>
             </div>
         </div>
@@ -100,11 +100,15 @@
         <!-- Cookies Alert idk at all-->
         <div class="cookies container flexed">
             <div class="cky-left flexed">
-
+                <img src="./images/cookie.png" alt="cookie">
             </div>
-            <div class="cky-mid flexed">
-                <h3>Stop! Have a Cookie</h3>
-                <p>We use cookies (sadly not the kind you eat) to personalize content and ads, to provide social media features, and analyze our traffic. <a href="#">Read More<a></a></p>
+            <div class="cky-mid container flexed">
+                <div id="cky-mid-topline" class="container flexed">
+                    <h3>Stop! Have a Cookie</h3>
+                </div>
+                <div id="cky-mid-bottomline" class="container flexed">
+                    <p>We use cookies (sadly not the kind you eat) to personalize content and ads, to provide social media features, and analyze our traffic. <a href="#">Read More<a></a></p>
+                </div>
             </div>
             <div class="cky-right flexed">
                 <button>I Accept</button>
