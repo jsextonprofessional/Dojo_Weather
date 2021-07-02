@@ -34,7 +34,7 @@
             <!-- Right -->
             <div id="control-right" class="container flexed">
                 <p>show temperature in</p>
-                <select name="cars" id="cars">
+                <select id="unit-choice" onchange="changeUnit(this)">
                     <option value="celcius">C</option>
                     <option value="fahrenheit">F</option>
                 </select>
@@ -111,7 +111,7 @@
                 </div>
             </div>
             <div class="cky-right flexed">
-                <button onclick="dismiss('#cky-banner')">I Accept</button>
+                <button onclick="dismiss("#cky-banner")">I Accept</button>
             </div>
         </div>
     </main>
