@@ -33,7 +33,7 @@
             </div>
             <!-- Right -->
             <div id="control-right" class="container flexed">
-                <p>show temperature</p>
+                <p>show temperature in</p>
                 <select name="cars" id="cars">
                     <option value="celcius">C</option>
                     <option value="fahrenheit">F</option>
@@ -52,8 +52,8 @@
                     <p>some rain</p>
                 </div>
                 <div class="temprow flexed">
-                    <div class="hi">24</div>
-                    <div class="low">18</div>
+                    <div id="hi-1" class="temp-num hi">24</div>
+                    <div id="low-1" class="temp-num low">18</div>
                 </div>
             </div>
             <div class="column">
@@ -62,11 +62,11 @@
                 </div>
                 <img src="./images/some_sun.png" alt="sunny" class="weathericon">
                 <div class="weather">
-                    <p>some rain</p>
+                    <p>some sun</p>
                 </div>
                 <div class="temprow flexed">
-                    <div class="hi">27</div>
-                    <div class="low">19</div>
+                    <div id="hi-2" class="temp-num hi">27</div>
+                    <div id="low-2" class="temp-num low">19</div>
                 </div>
             </div>
             <div class="column">
@@ -75,11 +75,11 @@
                 </div>
                 <img src="./images/some_clouds.png" alt="cloudy" class="weathericon">
                 <div class="weather">
-                    <p>some rain</p>
+                    <p>some clouds</p>
                 </div>
                 <div class="temprow flexed">
-                    <div class="hi">21</div>
-                    <div class="low">16</div>
+                    <div id="hi-3" class="temp-num hi">21</div>
+                    <div id="low-3" class="temp-num low">16</div>
                 </div>
             </div>
             <div class="column">
@@ -88,18 +88,27 @@
                 </div>
                 <img src="./images/some_sun.png" alt="sunny" class="weathericon">
                 <div class="weather">
-                    <p>some rain</p>
+                    <p>some sun</p>
                 </div>
                 <div class="temprow flexed">
-                    <div class="hi">26</div>
-                    <div class="low">21</div>
+                    <div id="hi-4"class="temp-num hi">26</div>
+                    <div id="low-4" class="temp-num low">21</div>
                 </div>
             </div>
         </div>
 
         <!-- Cookies Alert idk at all-->
-        <div class="cookies">
+        <div class="cookies container flexed">
+            <div class="cky-left flexed">
 
+            </div>
+            <div class="cky-mid flexed">
+                <h3>Stop! Have a Cookie</h3>
+                <p>We use cookies (sadly not the kind you eat) to personalize content and ads, to provide social media features, and analyze our traffic. <a href="#">Read More<a></a></p>
+            </div>
+            <div class="cky-right flexed">
+                <button>I Accept</button>
+            </div>
         </div>
     </main>
     <script src="./script.js"></script>
